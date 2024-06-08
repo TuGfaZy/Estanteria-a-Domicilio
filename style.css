@@ -1,0 +1,33 @@
+body {
+	background-color: rgb(213,219,270);
+	margin: 0px;
+}
+
+div.bar {
+	background-color: rgb(30,30,30);
+	height: 70px;
+	width: 100%;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	font-family: Verdana;
+	text-decoration: none;
+	color: #fff;	
+	align-content: center;
+	text-align: center;
+	height: 100%;
+	width: 100px;
+	margin: 30px;
+	
+	transition: 1s;
+}
+
+a:hover {
+	transition: 0.5s;
+	box-shadow: 0px 0px 10px #000;
+	transform: ;
+}
